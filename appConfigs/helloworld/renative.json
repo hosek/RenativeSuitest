@@ -1,0 +1,27 @@
+{
+    "extend": "base",
+    "id": "helloworld",
+    "common": {
+        "id": "com.mycompany.suitest",
+        "title": "SutestTest",
+        "description": "Cross-platform application project based on ReNative",
+        "buildSchemes": {
+            "debug": {
+                "id": "renative.helloworld.debug",
+                "title": "ReNative Debug"
+            }
+        }
+    },
+    "platforms": {
+        "ios": {
+            "buildSchemes": {
+                "debug": {}
+            }
+        },
+        "tvos": {
+            "buildSchemes": {
+                "debug": {}
+            }
+        }
+    }
+}
